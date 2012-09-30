@@ -1,4 +1,6 @@
 ScrumNow::Application.routes.draw do
+  resources :tasks
+
   resources :organizations
 
   root  :to => "home#index"
